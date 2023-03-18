@@ -9,6 +9,7 @@ const  audioTriangle = new Audio('../../public/audio/triangle.mp3')
 const  audioTrumpet = new Audio('../../public/audio/trumpet.wav')
 const  audioSaxophone = new Audio('../../public/audio/SAXY4.wav')
 const  audioTrumpet2 = new Audio('../../public/audio/FLUTE3.wav')
+const audioDrums = new Audio('../../public/audio/drums.wav')
 let value = 1
 const volumeSVG = ref(false)
 
@@ -36,7 +37,7 @@ const  playSound = (value:number) => {
     audioTrumpet2.play()
   }
   if( value === 8 ){
-    audioTrumpet2.play()
+    audioDrums.play()
   }
 }
 
@@ -52,6 +53,7 @@ const changeVolume = (volumeValue:number) => {
   audioViolin.volume=volumeValue
   audioSaxophone.volume = volumeValue
   audioTrumpet2.volume=volumeValue
+  audioDrums.volume=volumeValue
 }
 
 
