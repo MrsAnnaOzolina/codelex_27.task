@@ -9,7 +9,7 @@ const  audioTriangle = new Audio('../../public/audio/triangle.mp3')
 const  audioTrumpet = new Audio('../../public/audio/trumpet.wav')
 const  audioSaxophone = new Audio('../../public/audio/SAXY4.wav')
 const  audioTrumpet2 = new Audio('../../public/audio/FLUTE3.wav')
-const value = 1
+let value = 1
 const volumeSVG = ref(false)
 
 
