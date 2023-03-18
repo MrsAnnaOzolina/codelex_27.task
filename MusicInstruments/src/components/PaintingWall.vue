@@ -124,7 +124,7 @@ const changeVolume = (volumeValue: number) => {
 
 .volumeSlider {
   margin: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .wall {
@@ -163,7 +163,7 @@ const changeVolume = (volumeValue: number) => {
 
 .footer {
   display: grid;
-  grid-template-columns: repeat(3, 40vw);
+  grid-template-columns: repeat(3, 350px);
   align-items: flex-end;
   justify-content: center;
 }
