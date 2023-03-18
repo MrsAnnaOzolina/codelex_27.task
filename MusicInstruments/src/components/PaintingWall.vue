@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref, watch } from 'vue';
-import Slider from './Slider.vue';
+
 
 const audioGuitar = new Audio('../../public/audio/Guitar.wav')
 const  audioViolin = new Audio('../../public/audio/violin.wav')
@@ -50,6 +50,8 @@ const changeVolume = (volumeValue:number) => {
   audioTriangle.volume=volumeValue;
   audioTrumpet.volume=volumeValue;
   audioViolin.volume=volumeValue
+  audioSaxophone.volume = volumeValue
+  audioTrumpet2.volume=volumeValue
 }
 
 
@@ -57,7 +59,7 @@ const changeVolume = (volumeValue:number) => {
 </script>
 
 <template>
-  <!-- <Slider :value="0.75" :max="1"/> -->
+
 <h1 class="title">My musical wall</h1>
   <div class="wall">
 <div class="wall__image wall__first">

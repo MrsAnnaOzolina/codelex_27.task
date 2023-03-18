@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 
 import { ref, onMounted, computed, reactive } from 'vue'
 import throttle from 'lodash/throttle'
@@ -110,4 +110,4 @@ onMounted(()=>{
 z-index: 0;
 }
 
-</style>
+</style> -->
