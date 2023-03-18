@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import PaintingWall from '@/components/PaintingWall.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+   
+    <PaintingWall />
   </main>
 </template>
+

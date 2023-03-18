@@ -1,15 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Click on painting to play awsam sound </h1>
   </div>
 </template>
 
 <style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
+.about{
+  font-family: 'Beth Ellen', cursive;
+font-family: 'Shadows Into Light', cursive;
 }
 </style>
