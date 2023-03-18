@@ -2,13 +2,13 @@
 import { onMounted, ref, watch } from 'vue';
 
 
-const audioGuitar = new Audio('../../public/Guitar.wav')
-const audioViolin = new Audio('../../public/violin.wav')
-const audioPiano = new Audio('../../public/piano.wav')
-const audioTriangle = new Audio('../../public/triangle.mp3')
-const audioTrumpet = new Audio('../../public/trumpet.wav')
-const audioSaxophone = new Audio('../../public/SAXY4.wav')
-const audioTrumpet2 = new Audio('../../public/FLUTE3.wav')
+const audioGuitar = new Audio('./Guitar.wav')
+const audioViolin = new Audio('./violin.wav')
+const audioPiano = new Audio('./piano.wav')
+const audioTriangle = new Audio('./triangle.mp3')
+const audioTrumpet = new Audio('./trumpet.wav')
+const audioSaxophone = new Audio('./SAXY4.wav')
+const audioTrumpet2 = new Audio('./FLUTE3.wav')
 const audioDrums = new Audio('./drums.wav')
 let value = 1
 const volumeSVG = ref(false)
