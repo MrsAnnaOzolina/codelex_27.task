@@ -74,10 +74,10 @@ const changeVolume = (volumeValue: number) => {
     <div class="wall__image wall__fifth">
       <img @click="playSound(4)" class="wall--image" src="../../public/trumpet2.jpeg" alt="" width="150">
     </div>
-    <div>
+    <div class="wall__image wall__sixth">
       <img @click="playSound(3)" class="wall--image" src="../../public/Piano.jpg" alt="" width="110">
     </div>
-    <div class="wall__image">
+    <div class="wall__image wall__seventh">
       <img @click="playSound(7)" class="wall--image" src="../../public/trumpet.jpeg" alt="" width="120">
     </div>
     <div class="wall__image">
@@ -115,6 +115,7 @@ const changeVolume = (volumeValue: number) => {
   font-family: 'Shadows Into Light', cursive;
   font-size: 60px;
   color: rgb(61, 57, 57);
+  color: pink;
 }
 
 .volumeImage {
@@ -150,6 +151,13 @@ const changeVolume = (volumeValue: number) => {
   align-self: center;
 }
 
+.wall__seventh{
+  justify-self: center;
+}
+
+.wall__sixth{
+  justify-self: center;
+}
 .wall--image {
   border-radius: 5px;
   box-shadow: 10px 10px 5px rgb(106, 112, 115);
