@@ -100,7 +100,6 @@ const changeVolume = (volumeValue: number) => {
 
       <input type="range" min="0" max="1" step="0.1" v-model="value" @change="changeVolume(value)">
     </div>
-
   </div>
 </template>
 
