@@ -75,10 +75,10 @@ const changeVolume = (volumeValue: number) => {
       <img @click="playSound(4)" class="wall--image" src="../../public/trumpet2.jpeg" alt="" width="150">
     </div>
     <div>
-      <img @click="playSound(3)" class="wall--image" src="../../public/Piano.jpg" alt="" width="100">
+      <img @click="playSound(3)" class="wall--image" src="../../public/Piano.jpg" alt="" width="110">
     </div>
     <div class="wall__image">
-      <img @click="playSound(7)" class="wall--image" src="../../public/trumpet.jpeg" alt="" width="100">
+      <img @click="playSound(7)" class="wall--image" src="../../public/trumpet.jpeg" alt="" width="120">
     </div>
     <div class="wall__image">
       <img @click="playSound(8)" class="wall--image" src="../../public/drums.jpeg" alt="" width="200">
